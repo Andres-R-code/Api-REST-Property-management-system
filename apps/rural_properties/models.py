@@ -55,7 +55,7 @@ class RuralProperty(models.Model):
     tipe = models.CharField(
         blank = False, 
         null = False, 
-        default = 'Rural',
+        default = 'rural',
         max_length = 5,
         editable = False
         )

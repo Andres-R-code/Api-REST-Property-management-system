@@ -32,6 +32,8 @@ from drf_yasg import openapi
 
 # Import Views from apps
 from apps.owners.views import OwnerViewSet
+from apps.rural_properties.views import RuralPropertieViewSet
+from apps.urban_properties.views import UrbanPropertieViewSet
 from apps.users.views import UserViewSet
 
 schema_view = get_schema_view(
@@ -52,6 +54,8 @@ router = DefaultRouter()
 
 router.register('users', UserViewSet)
 router.register('owners', OwnerViewSet)
+router.register('rural-properties',  RuralPropertieViewSet)
+router.register('urban-properties',  UrbanPropertieViewSet)
 
 
 urlpatterns = [

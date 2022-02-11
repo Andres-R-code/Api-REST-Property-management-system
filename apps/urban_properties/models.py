@@ -60,7 +60,7 @@ class UrbanProperty(models.Model):
     tipe = models.CharField(
         blank = False, 
         null = False, 
-        default = 'Urban',
+        default = 'urban',
         max_length = 5,
         editable = False
         )
