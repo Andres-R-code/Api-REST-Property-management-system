@@ -1,6 +1,7 @@
 import uuid
 from django.db import models
 
+
 VISIVILITY_CHOICES_TIPE_OWNER = [
     ('PERSON', 'person'),
     ('COMPANY', 'company')

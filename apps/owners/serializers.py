@@ -58,6 +58,7 @@ class GetIdOwnerSerializers(ModelSerializer):
             'address'
         )
 
+
 class UpdateOwnerSerializer(ModelSerializer):
 
     class Meta:
