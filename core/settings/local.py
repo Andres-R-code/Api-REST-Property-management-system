@@ -31,6 +31,3 @@ STATIC_URL = '/static/'
 
 
 
-
-\
-

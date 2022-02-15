@@ -12,9 +12,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 't80himqmf4q_u^*xcpl@0%(xcr28$04w^6s+)4_lo7n3dbp(g8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -113,14 +113,13 @@ USE_TZ = False
 AUTH_USER_MODEL = 'users.UserCustom'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
     "https://sub.example.com",
     "http://localhost:3000"
 ]
 
 CORS_ORIGIN_WHITELIST = [
+    "https://landsistem.netlify.app/",
     "https://example.com",
-    "https://sub.example.com",
     "http://localhost:3000"
 ]
 
