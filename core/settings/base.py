@@ -119,8 +119,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CORS_ORIGIN_WHITELIST = [
-    "https://example.com",
-    "https://sub.example.com",
+    "https://landsistem.netlify.app/",
     "http://localhost:3000"
 ]
 
