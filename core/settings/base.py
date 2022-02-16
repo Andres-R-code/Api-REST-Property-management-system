@@ -1,5 +1,7 @@
+import django_heroku
 from datetime import timedelta
 import os
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -131,6 +133,8 @@ STATIC_URL = '/static/'
 SIMPLE_JWT = {
     'ACCESS_TOKEN_LIFETIME': timedelta(days=1)
 }
+
+django_heroku.settings(locals())
 
 # REST_FRAMEWORK = {
 #     'DEFAULT_AUTHENTICATION_CLASSES': [
