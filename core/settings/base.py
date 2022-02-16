@@ -115,13 +115,12 @@ USE_TZ = False
 AUTH_USER_MODEL = 'users.UserCustom'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://sub.example.com",
+    "https://landsistem.netlify.app",
     "http://localhost:3000"
 ]
 
 CORS_ORIGIN_WHITELIST = [
     "https://landsistem.netlify.app",
-    "https://example.com",
     "http://localhost:3000"
 ]
 
