@@ -1,6 +1,8 @@
 ## REST API administration registration system
 
-Deploy: [management-properties.com](https://management-properties.herokuapp.com/swagger/) 
+### `Deployment`
+This section has moved here: [management-properties.com](https://management-properties.herokuapp.com/swagger/)
+
 
 ## Purpose
 The purpose of this repository is to demonstrate some of my technical skills in building a REST API using Django with Django Rest Framework.
